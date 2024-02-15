@@ -6,13 +6,13 @@ Input Files
 ShellPress processes Markdown files with the extension .markdown. Each file must contain:
 
 The title of the article listed as the first Markdown first-level heading.
-The creation date given as the date the file was last modified (Linux mtime attribute).
+The creation date given as the date the file was last modified.
 
 
 Generating HTML Files
 The command to generate HTML files for all articles in the articles directory is as follows:
 
-Publish-Portal [-Statistics] [-Destination target] [file.markdown...]
+```Publish-Portal [-Statistics] [-Destination target] [file.markdown...]```
 
 If no file is specified, HTML files for all articles in the directory are generated. An index.html page is also created, listing all articles in the portal with their titles, publication dates, and hyperlinks to the article texts.
 
